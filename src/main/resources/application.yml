@@ -1,0 +1,7 @@
+server:
+  port: 8888
+ 
+spring:  cloud:    config:      server:        git:          uri: https://github.com/joanvilarrasa/musea-config-store
+          #username: someuser
+          #passphrase: somepass
+          search-paths:          - '*service'
