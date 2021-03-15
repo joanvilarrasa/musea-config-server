@@ -5,3 +5,5 @@ spring:  cloud:    config:      server:        git:          uri: https://g
           #username: someuser
           #passphrase: somepass
           search-paths:          - '*service'
+            security:    user:      name: 'musea-config-server-user'
+      password: 'JUF`33{7g$D"ft~Y'
