@@ -2,8 +2,8 @@ server:
   port: 8888
  
 spring:  cloud:    config:      server:        git:          uri: https://github.com/joanvilarrasa/musea-config-store
-          #username: someuser
-          #passphrase: somepass
+          username: 'musea-fib'
+          password: '3~dM{]S2rGVpb=wY'
           search-paths:          - '*service'
             security:    user:      name: 'musea-config-server-user'
       password: 'JUF`33{7g$D"ft~Y'
